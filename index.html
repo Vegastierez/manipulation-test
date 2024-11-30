@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulative Behavior Assessment</title>
+    <style>
+        /* Basic styles for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question h3 {
+            font-size: 18px;
+        }
+        .answers {
+            display: flex;
+            flex-direction: column;
+        }
+        .answer {
+            margin-bottom: 10px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Manipulative Behavior Assessment</h1>
+
+<form id="quizForm">
+    <!-- Question 1 -->
+    <div class="question">
+        <h3>You’re planning an event with a group of friends, but you want to ensure you get your way. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question1" value="EMP-5, RMP-0, SMP-2, UMP-0">
+                A) Persuade everyone that it would be best for the group if they go along with your plan.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question1" value="EMP-0, RMP-0, SMP-2, UMP-7">
+                B) Subtly guilt-trip people by reminding them of past favors you’ve done for them.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question1" value="EMP-3, RMP-0, SMP-5, UMP-0">
+                C) Appeal to their logic by showing how your plan will lead to the best outcome for everyone.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question1" value="EMP-4, RMP-0, SMP-2, UMP-0">
+                D) Use compliments and charm to get them to agree to your plan without them feeling pressured.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 2 -->
+    <div class="question">
+        <h3>A friend is refusing to help you with something important. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question2" value="EMP-6, RMP-0, SMP-1, UMP-0">
+                A) Explain to them how much it would mean to you and how it would help them in the future.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question2" value="EMP-8, RMP-0, SMP-0, UMP-2">
+                B) Use emotional manipulation, telling them you’re hurt that they won’t help.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question2" value="EMP-4, RMP-0, SMP-3, UMP-0">
+                C) Offer them something in return, creating a deal where both sides gain.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question2" value="EMP-7, RMP-1, SMP-0, UMP-0">
+                D) Tell them how much they owe you for past favors, making them feel guilty.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 3 -->
+    <div class="question">
+        <h3>You’re in a debate with someone who has a very different opinion from yours. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question3" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                A) Use logical arguments and facts to back up your stance, making sure they see the error of their ways.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question3" value="EMP-3, RMP-0, SMP-0, UMP-7">
+                B) Emotionalize the issue, making them feel like they’re being unreasonable.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question3" value="EMP-1, RMP-1, SMP-0, UMP-8">
+                C) Appeal to their sense of guilt, subtly suggesting they are wrong and hurtful.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question3" value="EMP-4, RMP-4, SMP-0, UMP-0">
+                D) Try to convince them by making them feel sorry for you and your point of view.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 4 -->
+    <div class="question">
+        <h3>You want to convince someone to do something they’re unsure about, but you’re uncertain of their answer. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question4" value="EMP-3, RMP-0, SMP-5, UMP-0">
+                A) Present the benefits they’ll get from doing it, focusing on logical and rational reasons.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question4" value="EMP-7, RMP-0, SMP-0, UMP-1">
+                B) Play on their emotions, reminding them of how you’ve helped them before and how they should return the favor.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question4" value="EMP-2, RMP-2, SMP-0, UMP-8">
+                C) Appeal to their guilt, suggesting they’d be letting you down if they said no.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question4" value="EMP-3, RMP-0, SMP-3, UMP-0">
+                D) Use flattery and praise to make them feel like they’d be making the right choice.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 5 -->
+    <div class="question">
+        <h3>You’ve made a mistake that has impacted someone else. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question5" value="EMP-5, RMP-0, SMP-2, UMP-0">
+                A) Apologize sincerely, but make sure to explain how it was a misunderstanding or out of your control.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question5" value="EMP-0, RMP-1, SMP-0, UMP-7">
+                B) Blame external factors to lessen your responsibility, making them feel sorry for you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question5" value="EMP-6, RMP-0, SMP-2, UMP-0">
+                C) Accept full responsibility and offer to make it right, even if it costs you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question5" value="EMP-0, RMP-2, SMP-0, UMP-8">
+                D) Deny or downplay the mistake, shifting the blame to avoid personal harm.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 6 -->
+    <div class="question">
+        <h3>You need to ask someone to do something, but it’s a big favor. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question6" value="EMP-5, RMP-0, SMP-3, UMP-0">
+                A) Promise something in return, making sure they see it as a fair exchange.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question6" value="EMP-6, RMP-0, SMP-0, UMP-2">
+                B) Use emotional appeals, telling them how much it would mean to you personally.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question6" value="EMP-4, RMP-0, SMP-2, UMP-0">
+                C) Offer them a choice of a few options that could benefit them as well.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question6" value="EMP-0, RMP-2, SMP-0, UMP-7">
+                D) Push them by subtly making them feel guilty if they don’t help.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 7 -->
+    <div class="question">
+        <h3>You want someone to agree with your opinion on a controversial topic. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question7" value="EMP-6, RMP-0, SMP-3, UMP-0">
+                A) Make a strong logical case, providing undeniable evidence and facts.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question7" value="EMP-5, RMP-0, SMP-0, UMP-3">
+                B) Use their emotions to frame the issue in a way that makes them feel your opinion is the right one.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question7" value="EMP-0, RMP-1, SMP-0, UMP-7">
+                C) Tell them that if they don’t agree with you, they’ll be disappointing you personally.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question7" value="EMP-6, RMP-0, SMP-2, UMP-0">
+                D) Appeal to their empathy, making them feel that agreeing with you is morally right.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 8 -->
+    <div class="question">
+        <h3>You’re negotiating with someone for a business deal. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question8" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                A) Make logical points about why the deal would benefit both sides, showing them how it aligns with their interests.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question8" value="EMP-7, RMP-0, SMP-2, UMP-0">
+                B) Present the deal in a way that makes them feel like it’s their best option, while downplaying alternatives.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question8" value="EMP-0, RMP-2, SMP-0, UMP-8">
+                C) Focus on how the deal will help you personally and make them feel guilty if they disagree.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question8" value="EMP-5, RMP-0, SMP-3, UMP-0">
+                D) Use charm and persuasion to make them feel that agreeing is the right thing to do.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 9 -->
+    <div class="question">
+        <h3>Someone is upset and needs support, but you also want them to agree with your perspective. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question9" value="EMP-5, RMP-0, SMP-3, UMP-0">
+                A) Provide comfort and support first, then gently guide them towards seeing things your way.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question9" value="EMP-6, RMP-0, SMP-0, UMP-2">
+                B) Offer support but make them feel like agreeing with your viewpoint is the best thing for their emotional well-being.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question9" value="EMP-0, RMP-3, SMP-0, UMP-7">
+                C) Use their emotions to manipulate them into agreeing with your opinion.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question9" value="EMP-0, RMP-1, SMP-0, UMP-8">
+                D) Make them feel that if they don’t agree with you, it will affect your relationship.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 10 -->
+    <div class="question">
+        <h3>You’re trying to gain someone’s trust, but they’re hesitant. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question10" value="EMP-5, RMP-0, SMP-3, UMP-0">
+                A) Be honest and transparent, showing them how their trust will benefit both of you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question10" value="EMP-6, RMP-0, SMP-2, UMP-0">
+                B) Offer them something they value in exchange for their trust, framing it as a mutual agreement.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question10" value="EMP-0, RMP-1, SMP-0, UMP-7">
+                C) Subtly convince them that not trusting you would be a mistake they’d regret.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question10" value="EMP-0, RMP-6, SMP-0, UMP-2">
+                D) Show them that you’re in a position of power and they should trust you to get what they want.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 11 -->
+    <div class="question">
+        <h3>You want someone to give you a favor but they’re reluctant. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question11" value="EMP-6, RMP-0, SMP-2, UMP-0">
+                A) Convince them how much it would mean to you and how it’s a simple request.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question11" value="EMP-0, RMP-1, SMP-0, UMP-8">
+                B) Remind them of past favors you’ve done for them, making them feel obligated to help.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question11" value="EMP-5, RMP-0, SMP-3, UMP-0">
+                C) Offer a clear exchange or mutual benefit that aligns with their interests.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question11" value="EMP-0, RMP-2, SMP-0, UMP-7">
+                D) Use emotional pressure to get them to feel guilty for refusing your request.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 12 -->
+    <div class="question">
+        <h3>You want to change someone's mind about an important issue. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question12" value="EMP-2, RMP-0, SMP-7, UMP-0">
+                A) Provide logical facts and figures to back up your point.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question12" value="EMP-5, RMP-0, SMP-0, UMP-3">
+                B) Make them feel emotionally connected to your argument, framing it as morally important.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question12" value="EMP-0, RMP-2, SMP-0, UMP-8">
+                C) Use guilt to make them feel bad for holding their current view.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question12" value="EMP-6, RMP-0, SMP-3, UMP-0">
+                D) Appeal to their sense of fairness and justice to make them rethink their position.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 13 -->
+    <div class="question">
+        <h3>Someone is having a tough time, and you want them to rely on you. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question13" value="EMP-6, RMP-0, SMP-3, UMP-0">
+                A) Be genuinely supportive and offer to help however you can.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question13" value="EMP-8, RMP-0, SMP-0, UMP-2">
+                B) Make them feel that they need you and that you’re the only one who truly understands.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question13" value="EMP-0, RMP-3, SMP-0, UMP-7">
+                C) Gently manipulate their emotions to ensure they depend on you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question13" value="EMP-0, RMP-2, SMP-0, UMP-7">
+                D) Make them feel like they owe you their trust, using subtle guilt to create dependence.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 14 -->
+    <div class="question">
+        <h3>You need to get someone to do a task for you, but they’re distracted. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question14" value="EMP-4, RMP-0, SMP-3, UMP-0">
+                A) Offer a small incentive that appeals to their interests.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question14" value="EMP-0, RMP-2, SMP-0, UMP-6">
+                B) Guilt-trip them by saying it would really help you out.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question14" value="EMP-5, RMP-0, SMP-3, UMP-0">
+                C) Calmly explain how the task will benefit both of you, making it seem like a fair deal.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question14" value="EMP-7, RMP-1, SMP-0, UMP-0">
+                D) Appeal to their emotions by stressing how important the task is to you personally.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 15 -->
+    <div class="question">
+        <h3>You want someone to feel comfortable with a decision you made. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question15" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                A) Use logic to explain why your decision makes sense for everyone.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question15" value="EMP-3, RMP-0, SMP-0, UMP-5">
+                B) Appeal to their emotions, showing how your decision benefits them.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question15" value="EMP-0, RMP-2, SMP-0, UMP-7">
+                C) Make them feel guilty for questioning you, subtly framing it as a personal slight.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question15" value="EMP-4, RMP-0, SMP-3, UMP-0">
+                D) Use charm and flattery to assure them that you’ve made the best decision.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 16 -->
+    <div class="question">
+        <h3>You’re dealing with someone who’s been untrustworthy. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question16" value="EMP-2, RMP-0, SMP-5, UMP-0">
+                A) Give them a chance to prove themselves and show them that you expect them to make up for their mistakes.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question16" value="EMP-0, RMP-1, SMP-0, UMP-7">
+                B) Subtly remind them of their past mistakes, making them feel bad for their actions.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question16" value="EMP-3, RMP-0, SMP-6, UMP-0">
+                C) Use logical arguments to prove how their behavior has hurt your relationship.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question16" value="EMP-2, RMP-8, SMP-0, UMP-2">
+                D) Keep a close watch over them, subtly manipulating their behavior without them realizing.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 17 -->
+    <div class="question">
+        <h3>Someone asks you a question about your personal life, but you don’t want to answer. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question17" value="EMP-2, RMP-0, SMP-5, UMP-0">
+                A) Politely change the subject, subtly guiding the conversation elsewhere.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question17" value="EMP-0, RMP-2, SMP-0, UMP-7">
+                B) Give a half-answer, making them feel like they’re prying too much.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question17" value="EMP-2, RMP-0, SMP-5, UMP-0">
+                C) Use humor to deflect the question and lighten the mood.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question17" value="EMP-3, RMP-3, SMP-0, UMP-6">
+                D) Make them feel that the question is inappropriate and should not have been asked.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 18 -->
+    <div class="question">
+        <h3>You want someone to trust your judgment on a decision. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question18" value="EMP-2, RMP-0, SMP-7, UMP-0">
+                A) Provide logical reasoning and data that back up your opinion.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question18" value="EMP-3, RMP-0, SMP-0, UMP-6">
+                B) Use emotional appeals, making them feel that trusting you will keep them safe or secure.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question18" value="EMP-3, RMP-0, SMP-5, UMP-0">
+                C) Build a rapport with them first, creating a foundation of trust that will make them believe in you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question18" value="EMP-0, RMP-2, SMP-0, UMP-7">
+                D) Use pressure, making them feel that not trusting you would lead to a bad outcome.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 19 -->
+    <div class="question">
+        <h3>You’re asked to lead a group project, but you want to ensure everyone does their fair share. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question19" value="EMP-3, RMP-0, SMP-5, UMP-0">
+                A) Clearly outline everyone’s responsibilities and make sure they understand the importance of the project.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question19" value="EMP-0, RMP-2, SMP-0, UMP-6">
+                B) Make them feel guilty if they don’t pull their weight, subtly implying that you’ll be disappointed.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question19" value="EMP-2, RMP-0, SMP-4, UMP-0">
+                C) Use flattery to encourage others to contribute, praising them for their strengths.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question19" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                D) Use logic to show how their effort directly impacts their success in the project.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 20 -->
+    <div class="question">
+        <h3>You’re trying to get someone to make a difficult decision. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question20" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                A) Help them weigh the pros and cons logically, ensuring they feel comfortable with the choice.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question20" value="EMP-0, RMP-2, SMP-0, UMP-7">
+                B) Pressure them into making a decision by highlighting the urgency of the situation.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question20" value="EMP-0, RMP-1, SMP-0, UMP-8">
+                C) Make them feel guilty if they don’t choose your preferred option.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question20" value="EMP-3, RMP-0, SMP-5, UMP-0">
+                D) Offer emotional reassurance, telling them everything will work out no matter what they decide.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 21 -->
+    <div class="question">
+        <h3>You’re in a disagreement with a friend about a decision you made. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question21" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                A) Apologize for any misunderstanding and explain your reasoning calmly.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question21" value="EMP-0, RMP-2, SMP-0, UMP-7">
+                B) Make them feel bad for not supporting you, implying they’re unsympathetic.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question21" value="EMP-3, RMP-0, SMP-5, UMP-0">
+                C) Use humor to downplay the disagreement and avoid confrontation.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question21" value="EMP-0, RMP-5, SMP-0, UMP-2">
+                D) Assert your authority in the situation, saying that your decision is final.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+    
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 22 -->
+    <div class="question">
+        <h3>Someone seems upset after a conversation with you. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question22" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                A) Ask them if everything is okay and express concern for their well-being.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question22" value="EMP-0, RMP-1, SMP-0, UMP-7">
+                B) Subtly imply they’re overreacting, making them question their feelings.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question22" value="EMP-0, RMP-3, SMP-5, UMP-0">
+                C) Brush it off, saying it’s their problem and they’ll get over it.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question22" value="EMP-2, RMP-0, SMP-5, UMP-0">
+                D) Give them a compliment to lift their spirits and make them feel better.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 23 -->
+    <div class="question">
+        <h3>You want to get someone to open up about their personal life. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question23" value="EMP-3, RMP-0, SMP-6, UMP-0">
+                A) Share something personal first to build trust and encourage reciprocity.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question23" value="EMP-0, RMP-1, SMP-0, UMP-7">
+                B) Use a guilt trip, subtly implying they’re not as open with you as you’ve been with them.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question23" value="EMP-2, RMP-0, SMP-5, UMP-0">
+                C) Offer comfort and reassurance, making them feel safe to share.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question23" value="EMP-0, RMP-3, SMP-0, UMP-4">
+                D) Ask them direct, probing questions, making it seem like you’re concerned.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 24 -->
+    <div class="question">
+        <h3>You’re dealing with someone who’s angry at you. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question24" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                A) Apologize for any misunderstanding and calmly explain your actions.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question24" value="EMP-0, RMP-1, SMP-0, UMP-7">
+                B) Deflect the anger, subtly shifting the blame onto something or someone else.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question24" value="EMP-3, RMP-0, SMP-4, UMP-0">
+                C) Ignore their anger, assuming it will blow over eventually.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question24" value="EMP-2, RMP-0, SMP-5, UMP-0">
+                D) Calm them down by reassuring them that everything will work out.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 25 -->
+    <div class="question">
+        <h3>You need to get someone to do something for you, but they’re hesitant. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question25" value="EMP-2, RMP-0, SMP-6, UMP-0">
+                A) Explain the long-term benefits of them helping you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question25" value="EMP-3, RMP-1, SMP-0, UMP-7">
+                B) Pressurize them by telling them how much it means to you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question25" value="EMP-3, SMP-5, UMP-0">
+                C) Use subtle flattery, complimenting them on their abilities to persuade them.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question25" value="EMP-2, RMP-2, SMP-0, UMP-8">
+                D) Make them feel guilty by framing the task as urgent or critical.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 26 -->
+    <div class="question">
+        <h3>You want to make someone feel guilty for not helping you. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question26" value="EMP-2, SMP-0, UMP-6, RMP-0">
+                A) Remind them how you’ve always helped them in the past.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question26" value="EMP-1, SMP-0, UMP-7, RMP-1">
+                B) Make them feel like they owe you something for all you’ve done.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question26" value="EMP-3, SMP-3, UMP-0">
+                C) Use emotional appeal, saying you’re hurt that they didn’t help.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question26" value="EMP-2, SMP-0, UMP-8, RMP-2">
+                D) Casually imply that they don’t care about you as much as you care about them.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 27 -->
+    <div class="question">
+        <h3>You want someone to feel like they can’t say no to you. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question27" value="EMP-3, SMP-0, UMP-6, RMP-0">
+                A) Make them feel important and flattered, increasing their sense of obligation.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question27" value="EMP-2, SMP-0, UMP-7, RMP-2">
+                B) Put pressure on them by showing how much you need their help.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question27" value="EMP-3, SMP-3, UMP-0">
+                C) Build rapport and trust first, so they feel like they can’t let you down.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question27" value="EMP-2, SMP-6, UMP-0">
+                D) Frame the situation as an opportunity for them to prove their loyalty to you.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 28 -->
+    <div class="question">
+        <h3>You want someone to stop questioning your authority. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question28" value="SMP-7, EMP-2">
+                A) Provide strong, logical reasons for why you’re in charge.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question28" value="UMP-8, RMP-2">
+                B) Make them feel insecure or inadequate for questioning you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question28" value="RMP-5, UMP-3">
+                C) Assert your position firmly, without room for argument.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question28" value="EMP-4, SMP-3">
+                D) Use humor or charm to downplay their concerns and make them feel silly.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 29 -->
+    <div class="question">
+        <h3>You want to persuade someone to take action, but they’re unsure. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question29" value="SMP-6, EMP-3">
+                A) Provide clear, logical reasons why it’s the best course of action.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question29" value="UMP-7, RMP-2">
+                B) Use subtle pressure, framing the situation as urgent.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question29" value="EMP-5, SMP-2">
+                C) Appeal to their emotions, making them feel that it’s the right thing to do.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question29" value="EMP-5, SMP-3">
+                D) Build rapport, so they feel more comfortable and willing to trust you.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 30 -->
+    <div class="question">
+        <h3>Someone close to you is making a decision you disagree with. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question30" value="SMP-6, EMP-2">
+                A) Explain your reasons logically and respectfully.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question30" value="UMP-7, RMP-3">
+                B) Press them by subtly implying that their decision will lead to negative consequences.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question30" value="EMP-5, SMP-3">
+                C) Offer an emotional appeal, saying you’re concerned for their well-being.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question30" value="UMP-8, RMP-1">
+                D) Make them feel guilty for not considering your feelings in their decision.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 31 -->
+    <div class="question">
+        <h3>You want someone to change their opinion on a subject you care about. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question31" value="SMP-7, EMP-2">
+                A) Present factual evidence that supports your point of view.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question31" value="EMP-6, UMP-3">
+                B) Use emotional appeal, making them feel like their opinion is hurting you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question31" value="UMP-8, RMP-1">
+                C) Make them feel guilty for being stubborn or closed-minded.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question31" value="EMP-5, SMP-3">
+                D) Build rapport and trust, slowly guiding them to change their perspective.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 32 -->
+    <div class="question">
+        <h3>Someone doesn’t believe you about something important. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question32" value="SMP-7, EMP-2">
+                A) Provide evidence or examples that demonstrate your credibility.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question32" value="EMP-5, SMP-3">
+                B) Use charm to make them feel foolish for doubting you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question32" value="UMP-8, RMP-2">
+                C) Make them feel guilty for questioning you, implying it’s a lack of trust.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question32" value="EMP-6, UMP-3">
+                D) Use emotional appeals, telling them how hurtful their disbelief is to you.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 33 -->
+    <div class="question">
+        <h3>You’re in a group setting and want to influence the outcome of a decision. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question33" value="SMP-7, EMP-2">
+                A) Present your argument logically, showing how it benefits everyone.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question33" value="EMP-6, SMP-3">
+                B) Appeal to the group’s emotions, making them feel united in the decision.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question33" value="UMP-7, RMP-1">
+                C) Use subtle pressure, suggesting that the decision is important and urgent.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question33" value="EMP-5, SMP-3">
+                D) Appeal to individual desires, making everyone feel that their choice matters.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 34 -->
+    <div class="question">
+        <h3>You want to manipulate someone’s perception of a situation in your favor. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question34" value="SMP-6, EMP-3">
+                A) Frame the situation in a way that benefits you, without outright lying.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question34" value="UMP-7, RMP-2">
+                B) Subtly downplay negative aspects and highlight only the positives.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question34" value="EMP-5, SMP-2">
+                C) Appeal to the person’s emotions to make them feel like they should support you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question34" value="RMP-8, UMP-2">
+                D) Provide only selective information, leaving out anything that could harm your case.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    
+</form>
+
+<form id="quizForm">
+    <!-- Question 35 -->
+    <div class="question">
+        <h3>You’re dealing with someone who’s competing for the same goal as you. What would you do?</h3>
+        <div class="answers">
+            <label class="answer">
+                <input type="radio" name="question35" value="SMP-6, EMP-3">
+                A) Compete fairly, focusing on your strengths and abilities.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question35" value="EMP-5, SMP-2">
+                B) Use charm or flattery to make them feel good about helping you.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question35" value="UMP-7, RMP-1">
+                C) Subtly discredit their abilities, making them feel less confident in competing.
+            </label>
+            <label class="answer">
+                <input type="radio" name="question35" value="SMP-6, EMP-3">
+                D) Use persuasion to make them feel like working with you will benefit them more.
+            </label>
+        </div>
+    </div>
+    <!-- Add more questions as needed -->
+
+    <button type="button" class="btn" onclick="calculateScore()">Submit</button>
+</form>
+
+
+<div id="result" class="result"></div>
+
+<script>
+    // Initialize the scores for each point type
+    let empScore = 0;
+    let rmpScore = 0;
+    let smpScore = 0;
+    let umpScore = 0;
+
+    // Function to calculate the score based on selected answers
+    function calculateScore() {
+        // Reset scores
+        empScore = 0;
+        rmpScore = 0;
+        smpScore = 0;
+        umpScore = 0;
+
+        // Get all the selected answers
+        const answers = document.querySelectorAll('input[type="radio"]:checked');
+
+        // Loop through the answers and add points accordingly
+        answers.forEach(answer => {
+            const values = answer.value.split(", ");
+            values.forEach(value => {
+                const [pointType, points] = value.split("-");
+                if (pointType === "EMP") empScore += parseInt(points);
+                if (pointType === "RMP") rmpScore += parseInt(points);
+                if (pointType === "SMP") smpScore += parseInt(points);
+                if (pointType === "UMP") umpScore += parseInt(points);
+            });
+        });
+
+        // Display the result
+        displayResult();
+    }
+
+    // Function to display the result based on scores
+    function displayResult() {
+        let resultText = `
+            <h2>Your Results:</h2>
+            <p><strong>EMP (Emotional Manipulation Potential):</strong> ${empScore}</p>
+            <p><strong>RMP (Relational Manipulation Potential):</strong> ${rmpScore}</p>
+            <p><strong>SMP (Social Manipulation Potential):</strong> ${smpScore}</p>
+            <p><strong>UMP (Universal Manipulation Potential):</strong> ${umpScore}</p>
+        `;
+
+        // Categorize EMP score (low: <40, medium: 40-80, high: >80)
+        if (empScore < 40) {
+            resultText += "<p>EMP: Low Manipulation Potential. You scored lower in this area.</p>";
+        } else if (empScore >= 40 && empScore <= 80) {
+            resultText += "<p>EMP: Medium Manipulation Potential. You scored around average in this area.</p>";
+        } else {
+            resultText += "<p>EMP: High Manipulation Potential. You scored higher than most in this area.</p>";
+        }
+
+        // Categorize RMP score (low: <12, medium: 12-24, high: >24)
+        if (rmpScore < 12) {
+            resultText += "<p>RMP: Low Manipulation Potential. You scored lower in this area.</p>";
+        } else if (rmpScore >= 12 && rmpScore <= 24) {
+            resultText += "<p>RMP: Medium Manipulation Potential. You scored around average in this area.</p>";
+        } else {
+            resultText += "<p>RMP: High Manipulation Potential. You scored higher than most in this area.</p>";
+        }
+
+        // Categorize SMP score (low: <12, medium: 12-24, high: >24)
+        if (smpScore < 12) {
+            resultText += "<p>SMP: Low Manipulation Potential. You scored lower in this area.</p>";
+        } else if (smpScore >= 12 && smpScore <= 24) {
+            resultText += "<p>SMP: Medium Manipulation Potential. You scored around average in this area.</p>";
+        } else {
+            resultText += "<p>SMP: High Manipulation Potential. You scored higher than most in this area.</p>";
+        }
+
+        // Categorize UMP score (low: <40, medium: 40-80, high: >80)
+        if (umpScore < 40) {
+            resultText += "<p>UMP: Low Manipulation Potential. You scored lower in this area.</p>";
+        } else if (umpScore >= 40 && umpScore <= 80) {
+            resultText += "<p>UMP: Medium Manipulation Potential. You scored around average in this area.</p>";
+        } else {
+            resultText += "<p>UMP: High Manipulation Potential. You scored higher than most in this area.</p>";
+        }
+
+        // Show the result on the page
+        document.getElementById('result').innerHTML = resultText;
+    }
+</script>
+
+</body>
+</html>
